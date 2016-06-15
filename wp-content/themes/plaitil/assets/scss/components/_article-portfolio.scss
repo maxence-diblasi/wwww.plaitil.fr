@@ -1,0 +1,209 @@
+.portfolio-padding{
+    padding-top:100px;
+    padding-bottom:100px;
+    .article-portfolio{
+        .conteneur-text{
+          padding-right:40px;
+            h3{
+                font-family:$kadwa;
+                font-weight:700;
+                font-size:60px;
+                color:$bleu-flash;
+                margin-bottom:10px;;
+                line-height:1;
+            }
+            h4{
+                font-family:$open;
+                font-weight:700;
+                font-size:24px;
+                color:$gris-titre;
+                text-transform:uppercase;
+                margin-bottom:30px;
+            }
+            p{
+                font-family:$open;
+                font-weight:400;
+                font-size:16px;
+                color:$gris-titre;
+            }
+
+        }
+        .conteneur-caracteristique{
+          margin-bottom:100px;
+            .block-caracteristiques{
+                background:$bleu-flash;
+                padding-top:20px;
+                padding-bottom:30px;
+                padding-left:20px;
+                padding-right:20px;
+                h6{
+                    font-family:$open;
+                    font-weight:700;
+                    font-size:18px;
+                    text-transform:uppercase;
+                    color:$gris-titre;
+                    margin-bottom:0px;
+                }
+                p{
+                    font-family:$open;
+                    font-weight:400;
+                    font-size:14px;
+                    text-transform:uppercase;
+                    color:$gris-titre;
+                    margin-bottom:30px;
+                }
+                .bouton-blanc-portfolio{
+                    text-decoration:none;
+                    text-transform:uppercase;
+                    font-family:$open;
+                    font-weight:700;
+                    font-size:18px;
+                    padding:10px;
+                    color:$blanc;
+                    border:solid 2px $blanc;
+                    border-radius:3px;
+                    text-align:center;
+                    width:150px;
+                    transition: 0.4s ease all;
+                    &:hover{
+                        transition: 0.4s ease all;
+                        background:$blanc;
+                        color:$bleu-flash;
+                    }
+                }
+                .sharing{
+                    text-decoration:none;
+                    height:50px;
+                    width:50px;
+                    display:inline-block;
+                    border-radius:50px;
+                    border:solid 2px $blanc;
+                    color:$blanc;
+                    text-align:center;
+                    margin-left:20px;
+                    transition: 0.4s ease all;
+                    &:hover{
+                        transition: 0.4s ease all;
+                        background:$blanc;
+                        color:$bleu-flash;
+                    }
+                    i{
+                        font-size:18px;
+                        line-height:48px;
+                        vertical-align:middle;
+                    }
+                }
+                .caracteristique-backoffice{
+                  a{
+                    text-decoration:none;
+                    color:$blanc;
+                    font-family:$open;
+                    font-weight:700;
+                    text-transform:uppercase;
+
+                  }
+                }
+
+            }
+            .site-projet{
+                text-decoration:none;
+                font-family:$open;
+                font-weight:700;
+                font-size:18px;
+                text-transform:uppercase;
+                display:block;
+                border:solid 2px $bleu-flash;
+                background: $bleu-flash;
+                color:$blanc;
+                text-align:center;
+                padding-top:10px;
+                padding-bottom:10px;
+                border-radius:3px;
+                margin-top:20px;
+                transition: 0.4s ease all;
+                &:hover{
+                    transition: 0.4s ease all;
+                    background:$blanc;
+                    color:$bleu-flash;
+                }
+            }
+            .retour-projet{
+                text-decoration:none;
+                font-family:$open;
+                font-weight:700;
+                font-size:18px;
+                text-transform:uppercase;
+                display:block;
+                border:solid 2px $bleu-flash;
+                color:$bleu-flash;
+                text-align:center;
+                padding-top:10px;
+                padding-bottom:10px;
+                border-radius:3px;
+                margin-top:20px;
+                transition: 0.4s ease all;
+                &:hover{
+                    transition: 0.4s ease all;
+                    background:$bleu-flash;
+                    color:$blanc;
+                }
+            }
+        }
+        .image-conteneur{
+            margin-top:60px;
+            img{
+              margin-bottom:100px;
+               box-shadow: 1px 1px 12px #d1d1d1;
+            }
+            .site-projet{
+                text-decoration:none;
+                font-family:$open;
+                font-weight:700;
+                font-size:18px;
+                width:30%;
+                text-transform:uppercase;
+                display:block;
+                border:solid 2px $bleu-flash;
+                background: $bleu-flash;
+                color:$blanc;
+                text-align:center;
+                padding-top:10px;
+                padding-bottom:10px;
+                border-radius:3px;
+                margin:0 auto;
+                margin-top:20px;
+                transition: 0.4s ease all;
+                &:hover{
+                    transition: 0.4s ease all;
+                    background:$blanc;
+                    color:$bleu-flash;
+                }
+            }
+            .retour-projet{
+                text-decoration:none;
+                font-family:$open;
+                width:30%;
+                margin:0 auto;
+                font-weight:700;
+                font-size:18px;
+                text-transform:uppercase;
+                display:block;
+                border:solid 2px $bleu-flash;
+                color:$bleu-flash;
+                text-align:center;
+                padding-top:10px;
+                padding-bottom:10px;
+                border-radius:3px;
+                margin-top:50px;
+                transition: 0.4s ease all;
+                &:hover{
+                    transition: 0.4s ease all;
+                    background:$bleu-flash;
+                    color:$blanc;
+                }
+
+            }
+        }
+
+    }
+}

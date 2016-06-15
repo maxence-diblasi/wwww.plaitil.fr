@@ -1,0 +1,90 @@
+.section-padding-footer{
+	background:$gris-titre;
+	padding-top:50px;
+	padding-bottom:50px;
+	.foot-plaitil{
+		.block-text-mention{
+			display:block;
+			a{
+				display:block;
+				font-family:$open;
+				font-weight:700;
+				color:$blanc;
+				transition: 0.4s ease all;
+				&:hover{
+					transition: 0.4s ease all;
+					color:$bleu-flash;
+				}
+			}
+		}
+		.block-text-adresse{
+			display:block;
+			a{
+				display:block;
+				font-family:$open;
+				font-weight:700;
+				color:$blanc;
+				transition: 0.4s ease all;
+				&:hover{
+					transition: 0.4s ease all;
+					color:$bleu-flash;
+				}
+			}
+			.inactif-a{
+				color:#888888;
+				
+				&:hover{
+					color:#888888;
+				}
+			}
+		}
+		.block-text-reseaux{
+			display:block;
+			a{
+				text-decoration:none;
+				i{
+					font-size:25px;
+					margin-right:20px;
+					height:40px;
+					width:40px;
+					line-height:40px;
+					text-align:center;
+					border-radius:40px;
+					color:$blanc;
+				}
+				.fa-facebook{
+					transition: 0.4s ease all;
+	                &:hover{
+	                    transition: 0.4s ease all;
+	                    background:$facebook;
+	                    color:$blanc;
+	                }
+				}
+				.fa-twitter{
+					transition: 0.4s ease all;
+	                &:hover{
+	                    transition: 0.4s ease all;
+	                    background:$twitter;
+	                    color:$blanc;
+	                }
+				}
+				.fa-github-alt{
+					transition: 0.4s ease all;
+	                &:hover{
+	                    transition: 0.4s ease all;
+	                    background:$github;
+	                    color:$blanc;
+	                }
+				}
+				.fa-pinterest-p{
+					transition: 0.4s ease all;
+	                &:hover{
+	                    transition: 0.4s ease all;
+	                    background:$pinterest;
+	                    color:$blanc;
+	                }
+				}
+			}
+		}
+	}
+}
